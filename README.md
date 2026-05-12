@@ -1,47 +1,40 @@
-## Fruit Image Classification using TensorFlow & MLflow
+## Digit Classification with TensorFlow
 
-This project demonstrates a machine learning workflow for image classification using TensorFlow, MobileNetV2, and MLflow within a Databricks environment.
+This project is a simple machine learning exercise focused on handwritten digit recognition using TensorFlow and the MNIST dataset.
 
-Project Overview
+Project Objective
 
-The objective of this project is to build and evaluate a fruit image classification model capable of distinguishing between apples and oranges using transfer learning techniques.
+The goal of this project is to build and train a basic Convolutional Neural Network (CNN) capable of identifying handwritten numbers from images.
 
-The project includes:
-
-Image preprocessing and dataset preparation
-Transfer learning using MobileNetV2
-Model training and evaluation
-MLflow experiment tracking
-Confusion matrix visualization
-Prediction analysis and reporting
 Technologies Used
 Python
 TensorFlow / Keras
-MLflow
-Scikit-learn
-Pandas
+NumPy
 Matplotlib
-Seaborn
 Databricks
-Machine Learning Workflow
+What the Project Includes
+Loading and preprocessing the MNIST dataset
+Building a CNN model
+Training and evaluating the model
+Predicting handwritten digits from images
+Visualizing prediction results
+Files Included
+ML_Clasificador_Digitos_Training.py → Model training process
+ML_Clasificador_Digitos_Run.py → Prediction and testing process
+README.md → Project description
+Learning Purpose
 
-This project demonstrates practical experience in:
+This project was created as part of my learning process in:
 
-Machine learning workflows
-Predictive analytics concepts
-Deep learning fundamentals
-Data visualization and reporting
-Model evaluation techniques
-ML experiment tracking with MLflow
+Machine Learning
+Deep Learning basics
+Image classification
+Python for AI and Data Analytics
 Future Improvements
 
-Potential future enhancements include:
+Some future improvements could include:
 
-Additional fruit classes
-Data augmentation
-Hyperparameter tuning
-Fine-tuning of pretrained layers
-Expanded dataset and performance optimization
-Repository Contents
-ML_Clasificacion_Frutas.py → Main notebook/project
-README.md → Project documentation
+Improving model accuracy
+Testing with more handwritten images
+Creating a simple web interface
+Experimenting with different neural network configurations
